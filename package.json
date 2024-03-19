@@ -5,10 +5,12 @@
   "repository": "https://github.com/d-zero-dev/tsconfig.git",
   "author": "D-ZERO Co., Ltd.",
   "license": "MIT",
+  "files": [
+    "./tsconfig.json"
+  ],
   "scripts": {
     "lint": "prettier --write *.{md,json}",
-    "release": "lerna publish --exact --force-publish",
-    "release:canary": "lerna publish --preid dev --canary --exact --force-publish",
+    "release": "np",
     "up": "yarn upgrade-interactive --latest"
   },
   "dependencies": {
@@ -17,6 +19,7 @@
     "@tsconfig/strictest": "2.0.3"
   },
   "devDependencies": {
+    "np": "^10.0.1",
     "prettier": "latest"
   },
   "volta": {
