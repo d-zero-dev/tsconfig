@@ -1,0 +1,26 @@
+{
+  "name": "@d-zero/tsconfig",
+  "version": "0.1.0",
+  "description": "Generic `tsconfig` of D-ZERO Inc.",
+  "repository": "https://github.com/d-zero-dev/tsconfig.git",
+  "author": "D-ZERO Co., Ltd.",
+  "license": "MIT",
+  "scripts": {
+    "lint": "prettier --write *.{md,json}",
+    "release": "lerna publish --exact --force-publish",
+    "release:canary": "lerna publish --preid dev --canary --exact --force-publish",
+    "up": "yarn upgrade-interactive --latest"
+  },
+  "dependencies": {
+    "@tsconfig/node-lts": "20.1.1",
+    "@tsconfig/recommended": "1.0.3",
+    "@tsconfig/strictest": "2.0.3"
+  },
+  "devDependencies": {
+    "prettier": "latest"
+  },
+  "volta": {
+    "node": "20.11.1",
+    "yarn": "1.22.22"
+  }
+}
