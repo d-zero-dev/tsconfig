@@ -13,9 +13,9 @@
     "up": "yarn upgrade-interactive --latest"
   },
   "dependencies": {
-    "@tsconfig/node-lts": "20.1.1",
-    "@tsconfig/recommended": "1.0.3",
-    "@tsconfig/strictest": "2.0.3"
+    "@tsconfig/node-lts": "20.1.3",
+    "@tsconfig/recommended": "1.0.6",
+    "@tsconfig/strictest": "2.0.5"
   },
   "devDependencies": {
     "prettier": "latest"
