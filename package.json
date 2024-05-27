@@ -24,7 +24,7 @@
     "prettier": "latest"
   },
   "volta": {
-    "node": "20.12.1",
+    "node": "20.13.1",
     "yarn": "1.22.22"
   }
 }
