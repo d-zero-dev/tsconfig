@@ -1,6 +1,6 @@
 {
   "name": "@d-zero/tsconfig",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Generic `tsconfig` of D-ZERO Inc.",
   "repository": "https://github.com/d-zero-dev/tsconfig.git",
   "author": "D-ZERO Co., Ltd.",
