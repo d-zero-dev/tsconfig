@@ -5,7 +5,7 @@ Node.js環境・フロントエンド環境（Viteトランスパイル前提）
 [`tsconfig.json`](./tsconfig.json)
 
 ```shell
-yarn add -D @d-zero/tsconfig
+npm install -D @d-zero/tsconfig
 ```
 
 ```json
