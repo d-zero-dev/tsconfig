@@ -1,6 +1,6 @@
 # ディーゼロ 開発環境 TypeScript設定ファイル
 
-Node.js環境・フロントエンド環境（Viteトランスパイル前提）共通
+Node.js環境・フロントエンド環境（esbuildトランスパイル前提）共通
 
 [`tsconfig.json`](./tsconfig.json)
 
