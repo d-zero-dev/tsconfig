@@ -23,9 +23,9 @@
   "devDependencies": {
     "prettier": "latest"
   },
-  "packageManager": "npm@11.3.0",
+  "packageManager": "npm@11.4.0",
   "volta": {
     "node": "22.15.1",
-    "npm": "11.3.0"
+    "npm": "11.4.0"
   }
 }
