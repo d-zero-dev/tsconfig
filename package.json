@@ -16,7 +16,7 @@
     "up": "npx npm-check-updates --interactive --format group"
   },
   "dependencies": {
-    "@tsconfig/node-lts": "22.0.2",
+    "@tsconfig/node-lts": "22.0.4",
     "@tsconfig/recommended": "1.0.10",
     "@tsconfig/strictest": "2.0.5"
   },

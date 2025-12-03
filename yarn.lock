@@ -9,17 +9,17 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@d-zero/tsconfig@workspace:."
   dependencies:
-    "@tsconfig/node-lts": "npm:22.0.2"
+    "@tsconfig/node-lts": "npm:22.0.4"
     "@tsconfig/recommended": "npm:1.0.10"
     "@tsconfig/strictest": "npm:2.0.5"
     prettier: "npm:latest"
   languageName: unknown
   linkType: soft
 
-"@tsconfig/node-lts@npm:22.0.2":
-  version: 22.0.2
-  resolution: "@tsconfig/node-lts@npm:22.0.2"
-  checksum: 10c0/7bfe370ed78494ba03aab3a54d48a74e3e19c5244fe6a84e7934457ea03440147a4fb0dab05afa9a20895af96cfdd2c8459a14cc1861cbffd49fa26624a6d5ed
+"@tsconfig/node-lts@npm:22.0.4":
+  version: 22.0.4
+  resolution: "@tsconfig/node-lts@npm:22.0.4"
+  checksum: 10c0/f0c6bbcc08670d5401426924345b31e136ebb40ee7020e38156f4b4c202842a5b316e460714900741f6f00328ff36b15e7862f6bf703cf69003770f4fac85a0a
   languageName: node
   linkType: hard
 
