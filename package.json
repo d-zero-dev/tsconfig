@@ -13,7 +13,7 @@
     "release:major": "npm version major; npm publish",
     "release:minor": "npm version minor; npm publish",
     "release:patch": "npm version patch; npm publish",
-    "up": "npx npm-check-updates --interactive --format group"
+    "update": "yarn upgrade-interactive"
   },
   "dependencies": {
     "@tsconfig/node-lts": "24.0.0",
