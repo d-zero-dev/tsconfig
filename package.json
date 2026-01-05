@@ -23,9 +23,9 @@
   "devDependencies": {
     "prettier": "latest"
   },
-  "packageManager": "yarn@4.9.3",
+  "packageManager": "yarn@4.12.0",
   "volta": {
     "node": "24.12.0",
-    "yarn": "4.9.3"
+    "yarn": "4.12.0"
   }
 }
