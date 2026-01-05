@@ -10,7 +10,7 @@ __metadata:
   resolution: "@d-zero/tsconfig@workspace:."
   dependencies:
     "@tsconfig/node-lts": "npm:24.0.0"
-    "@tsconfig/recommended": "npm:1.0.10"
+    "@tsconfig/recommended": "npm:1.0.13"
     "@tsconfig/strictest": "npm:2.0.8"
     prettier: "npm:latest"
   languageName: unknown
@@ -23,10 +23,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/recommended@npm:1.0.10":
-  version: 1.0.10
-  resolution: "@tsconfig/recommended@npm:1.0.10"
-  checksum: 10c0/402ef03da7300ea0f9f9d6e0507dcb8782c6b764c1f45b946a6c34f2bd3153571a1a85f10659606c24d1052aed699c3e32dd0da876e8f7eea577374eeeb80d17
+"@tsconfig/recommended@npm:1.0.13":
+  version: 1.0.13
+  resolution: "@tsconfig/recommended@npm:1.0.13"
+  checksum: 10c0/b0fae7ff8243621da68cd7a259499e1fd536e1aa3b3e3be233d30ab8d5bf046ec3dcc4ff68fc640435f421575e41e56bc735f61a1fe8a47b4475f3f2bf5ed882
   languageName: node
   linkType: hard
 
