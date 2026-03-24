@@ -6,6 +6,7 @@
     "@tsconfig/node-lts"
   ],
   "compilerOptions": {
+    "types": ["node"],
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
