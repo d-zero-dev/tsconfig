@@ -26,5 +26,8 @@ jobs:
           node-version: 24
           registry-url: "https://registry.npmjs.org"
 
+      - name: Enable Corepack
+        run: corepack enable
+
       - name: Publish
         run: npm publish --provenance --access public
