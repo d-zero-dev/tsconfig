@@ -2,7 +2,10 @@
   "name": "@d-zero/tsconfig",
   "version": "2.0.0",
   "description": "Generic `tsconfig` of D-ZERO Inc.",
-  "repository": "https://github.com/d-zero-dev/tsconfig.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d-zero-dev/tsconfig.git"
+  },
   "author": "D-ZERO Co., Ltd.",
   "license": "MIT",
   "files": [
@@ -10,9 +13,9 @@
   ],
   "scripts": {
     "lint": "prettier --write *.{md,json}",
-    "release:major": "npm version major; npm publish",
-    "release:minor": "npm version minor; npm publish",
-    "release:patch": "npm version patch; npm publish",
+    "release:major": "npm version major",
+    "release:minor": "npm version minor",
+    "release:patch": "npm version patch",
     "update": "yarn upgrade-interactive"
   },
   "dependencies": {

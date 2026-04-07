@@ -11,7 +11,7 @@ D-ZERO社の共有TypeScript設定パッケージ (`@d-zero/tsconfig`)。
 
 - **Lint/Format**: `yarn lint` (prettierによるmd/jsonファイルのフォーマット)
 - **依存更新**: `yarn update` (upgrade-interactive)
-- **リリース**: `yarn release:major` / `yarn release:minor` / `yarn release:patch` (npm version + publish)
+- **リリース**: `yarn release:major` / `yarn release:minor` / `yarn release:patch` (npm version のみ。tag push で GitHub Actions が npm publish)
 
 ## Tech Stack
 
