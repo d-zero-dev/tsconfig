@@ -1,6 +1,6 @@
 {
   "name": "@d-zero/tsconfig",
-  "version": "2.0.1-alpha.2",
+  "version": "2.0.1-alpha.3",
   "description": "Generic `tsconfig` of D-ZERO Inc.",
   "repository": {
     "type": "git",
