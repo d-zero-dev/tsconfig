@@ -17,6 +17,8 @@
     "release:minor": "npm version minor",
     "release:patch": "npm version patch",
     "release:alpha": "npm version prerelease --preid alpha",
+    "release:beta": "npm version prerelease --preid beta",
+    "release:rc": "npm version prerelease --preid rc",
     "update": "yarn upgrade-interactive"
   },
   "dependencies": {
