@@ -37,6 +37,8 @@ jobs:
             echo "tag=alpha" >> "$GITHUB_OUTPUT"
           elif [[ "$VERSION" == *"-beta"* ]]; then
             echo "tag=beta" >> "$GITHUB_OUTPUT"
+          elif [[ "$VERSION" == *"-rc"* ]]; then
+            echo "tag=rc" >> "$GITHUB_OUTPUT"
           elif [[ "$VERSION" == *"-"* ]]; then
             echo "tag=next" >> "$GITHUB_OUTPUT"
           else
