@@ -36,7 +36,7 @@ description: Git 操作ルール
 - 命令法を使用すること
 - Conventional Commits を使用すること
   - 使用するタイプ: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`
-  - スコープは使用しない
+  - 使用するスコープ: `repo`, `deps`, `github`
 - メッセージ本文の各行は100文字以下
 - 件名は sentence-case, start-case, pascal-case, upper-case にしない
 
@@ -58,7 +58,7 @@ heredoc とコマンド置換を使って複数行のコミットメッセージ
 
 ```bash
 git commit -m "$(cat <<'EOF'
-type!: subject line
+type(scope)!: subject line
 
 BREAKING CHANGE: 説明
 
@@ -81,7 +81,7 @@ EOF
 破壊的変更のないシンプルな1行コミット:
 
 ```bash
-git commit -m 'type: subject line'
+git commit -m 'type(scope): subject line'
 ```
 
 複数行の非破壊的コミットにも、適切なフォーマットを確保するため heredoc 形式を使用すること
