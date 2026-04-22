@@ -1,6 +1,6 @@
 {
   "name": "@d-zero/tsconfig",
-  "version": "2.0.0",
+  "version": "2.0.1-alpha.3",
   "description": "Generic `tsconfig` of D-ZERO Inc.",
   "repository": {
     "type": "git",
@@ -16,6 +16,9 @@
     "release:major": "npm version major",
     "release:minor": "npm version minor",
     "release:patch": "npm version patch",
+    "release:alpha": "npm version prerelease --preid alpha",
+    "release:beta": "npm version prerelease --preid beta",
+    "release:rc": "npm version prerelease --preid rc",
     "update": "yarn upgrade-interactive"
   },
   "dependencies": {
